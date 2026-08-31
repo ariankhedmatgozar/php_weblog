@@ -1,0 +1,27 @@
+Networking
+        ↓
+Linux
+        ↓
+Windows
+        ↓
+Python
+        ↓
+HTTP
+        ↓
+Web
+        ↓
+OWASP Top 10
+        ↓
+Burp Suite
+        ↓
+PortSwigger Labs
+        ↓
+TryHackMe
+        ↓
+Hack The Box
+        ↓
+Active Directory
+        ↓
+Privilege Escalation
+        ↓
+Red Team Labs
