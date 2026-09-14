@@ -1,11 +1,6 @@
 <?php
 
-session_start();
-
-if (!isset($_SESSION["user_id"])) {
-    header("Location: login.php");
-    exit;
-}
+require "auth.php";
 
 if ($_SESSION["role"] !== "admin") {
     http_response_code(403);

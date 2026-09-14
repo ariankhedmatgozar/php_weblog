@@ -1,11 +1,6 @@
 <?php
 
-session_start();
-
-if (!isset($_SESSION["user_id"])) {
-    http_response_code(401);
-    exit("Unauthorized");
-}
+require "auth.php";
 
 if (!isset($_GET["file"])) {
     http_response_code(400);

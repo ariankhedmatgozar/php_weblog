@@ -1,13 +1,9 @@
 <?php
 
-session_start();
+require "auth.php";
 
 require __DIR__ . "/config/db.php";
 
-if (!isset($_SESSION["user_id"])) {
-    http_response_code(401);
-    exit("Unauthorized");
-}
 
 if (!isset($_POST["csrf_token"])) {
     http_response_code(403);
